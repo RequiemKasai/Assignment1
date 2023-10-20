@@ -8,10 +8,19 @@ header {
 }
 
 h1 {
-    text-align: center;
-    color: #000;
-    line-height: 100px;
-    margin: 0;
+	background-color: purple;
+    	text-align: center;
+    	color: #000;
+    	line-height: 100px;
+    	margin: 0;
+}
+
+h2 {
+	background-color: crimson;
+    	text-align: center;
+    	color: #000;
+    	line-height: 25px;
+    	margin: 0;
 }
 
 article {
