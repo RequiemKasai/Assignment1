@@ -1,1 +1,32 @@
+.flex-container {
+	display: flex;
+}
 
+.flex-div {
+	flex: 1 100px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-article {
+	flex: 3 200px;
+	flex-flow: column;
+}
+
+article {
+	flex: 1 200px;
+}
+
+button {
+	border: blue;
+ 	color: white;
+ 	padding: 15px 32px;
+ 	text-align: center;
+ 	display: inline-block;
+ 	font-size: 24px;
+ 	margin: 4px 2px;
+ 	cursor: pointer;
+	background-color: #FFA500;
+}
