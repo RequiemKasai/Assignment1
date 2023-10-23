@@ -12,8 +12,8 @@ header {
 }
 
 .flex-container {
-  display: flex;
-  flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 h1 {
@@ -53,11 +53,6 @@ p2 {
 	margin: 0;
 }
 
-article {
-    padding: 10px;
-    margin: 10px;
-    background: aqua;
-}
 
 ol {
     	text-align: center;
@@ -65,6 +60,9 @@ ol {
 
 article {
 	flex: 1 200px;
+	padding: 10px;
+    	margin: 10px;
+    	background: aqua;
 }
 
 button {
