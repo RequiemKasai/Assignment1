@@ -15,16 +15,69 @@
 	flex-flow: column;
 }
 
+html {
+	background-color: yellow;
+	text-align: center;
+}
+
+body {
+    margin: 2;
+}
+
+h1 {
+	background-color: purple;
+    	text-align: center;
+    	color: #000;
+    	line-height: 50px;
+	font-size: 66px;
+	padding: 80px;
+	margin: 0;
+}
+
+h2 {
+	background-color: crimson;
+	text-align: center;
+    	color: #000;
+	font-size: 32px;
+    	line-height: 30px;
+	padding:40px;
+	margin: 0;
+}
+
+
 article {
-    font-size: 0; /*fix white space*/
+    font-size: 0;
 }
 article > section {
-    font-size: 16px;
-    display: inline-block;
-    width: 250px;
-    border: 1px outset black;
-    padding: 30px;
-    box-sizing: border-box;
+	font-size: 16px;
+   	display: inline-block;
+	width: 500px;
+	length: 300px;
+	border: 1px outset black;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+div {
+	background-color: gold;
+	text-align: center;
+    	color: #000;
+	font-size: 32px;
+    	line-height: 30px;
+	padding:40px;
+	margin: 0;
+}
+
+.Legendary{
+	border: blue;
+ 	color: white;
+ 	padding: 15px 32px;
+ 	text-align: center;
+ 	display: inline-block;
+ 	font-size: 24px;
+ 	margin: 4px 2px;
+ 	cursor: pointer;
+	background-color: #581845;
 }
 
 button {
@@ -37,4 +90,11 @@ button {
  	margin: 4px 2px;
  	cursor: pointer;
 	background-color: #FFA500;
+}
+
+
+footer {
+	backround-color: aqua;
+	display: inline;
+	padding: 100px;
 }
