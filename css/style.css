@@ -74,11 +74,9 @@ button {
 	background-color: #FFA500;
 }
 
-.footer {
-	backround-color: aqua;
-}
 
 footer {
+	backround-color: aqua;
 	display: inline;
 	padding: 100px;
 }
