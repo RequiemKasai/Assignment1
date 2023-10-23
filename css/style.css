@@ -52,6 +52,10 @@ article {
 	flex-flow: column;
 }
 
+ol {
+    	text-align: center;
+}
+
 article {
 	flex: 1 200px;
 }
