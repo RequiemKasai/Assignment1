@@ -6,10 +6,6 @@ body {
     margin: 2;
 }
 
-header {
-    background: orchid;
-    height: 100px;
-}
 
 .flex-container {
 	display: flex;
@@ -20,7 +16,7 @@ h1 {
 	background-color: purple;
     	text-align: center;
     	color: #000;
-    	line-height: 500px;
+    	line-height: 50px;
 	font-size: 66px;
 	padding: 80px;
 	margin: 0;
@@ -38,7 +34,7 @@ h2 {
 
 p1 {
 	text-align: center;
-    	color: dark green;
+    	color: green;
 	font-size: 22px;
     	line-height: 20px;
 	padding:10px;
