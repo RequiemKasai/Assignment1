@@ -51,8 +51,8 @@ article {
 article > section {
 	font-size: 16px;
    	display: inline-block;
-	width: 500px;
-	length: 300px;
+	width: 400px;
+	length: 1200px;
 	border: 1px outset black;
 	padding: 30px;
 	box-sizing: border-box;
