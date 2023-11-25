@@ -59,7 +59,7 @@ article {
 	flex: 1 200px;
 	padding: 10px;
     	margin: 10px;
-    	background: aqua;
+    	background-color: aqua;
 }
 
 button {
@@ -76,9 +76,10 @@ button {
 
 .Factcheck {
 	backround-color: green;
-	padding: 20px;
-	
-.footer {
+	padding: 5px;
+}
+
+.footers {
 	backround-color: white;
-	padding: 20px;
+	padding: 5px;
 }
