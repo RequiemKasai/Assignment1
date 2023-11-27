@@ -83,3 +83,9 @@ footer {
 	backround-color: white;
 	padding: 5px;
 }
+
+img {
+	width:500px;
+	height:200px;
+	float:right;
+}
