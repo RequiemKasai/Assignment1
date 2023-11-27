@@ -98,6 +98,5 @@ footer {
 }
 
 .Pages {
-	position: fixed;
-	bottom: 30px;
+	position: sticky;
 }
