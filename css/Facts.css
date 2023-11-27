@@ -96,3 +96,8 @@ footer {
 	display: inline;
 	padding: 100px;
 }
+
+.Pages {
+	position: fixed;
+	bottom: 30px;
+}
