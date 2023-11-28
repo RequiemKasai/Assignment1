@@ -83,6 +83,18 @@ footer {
   padding: 5px;
 }
 
+@media only screen and (max-width: 900px) {
+  footer {
+    display: none; 
+    font-size: 24px;
+    padding: 20px;
+  }
+
+img {
+    display: none; 
+  }
+}
+
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 36px;
@@ -103,15 +115,5 @@ footer {
     font-size: 18px;
     padding: 10px 20px;
     margin: 2px;
-  }
-  
-  footer {
-    display: none; 
-    font-size: 24px;
-    padding: 20px;
-  }
-
-img {
-    display: none; 
   }
 }
