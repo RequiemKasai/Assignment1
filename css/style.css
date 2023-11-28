@@ -75,6 +75,7 @@ button {
 u1 {
   background-color: green;
   padding: 5px;
+  font-size: 10px;
 }
 
 footer {
@@ -105,12 +106,12 @@ footer {
   }
   
   footer {
-    display: none;
+    display: none; 
     font-size: 24px;
     padding: 20px;
   }
 
-  img {
-    display: none;
+.sc_image img {
+    display: none; 
   }
 }
