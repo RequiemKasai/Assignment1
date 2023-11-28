@@ -107,3 +107,34 @@ footer {
   	row-gap: 50px;
   	grid-template-columns: auto auto auto;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightyellow;
+  }
+
+  h1 {
+    font-size: 36px;
+    padding: 40px;
+  }
+
+  h2 {
+    font-size: 24px;
+    padding: 20px;
+  }
+
+  article > section {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .Legendary,
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+  footer {
+    padding: 20px;
+  }
+}
