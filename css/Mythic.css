@@ -41,7 +41,7 @@ article {
 article > section {
   font-size: 16px;
   display: inline-block;
-  width: 33%;
+  width: 100%;
   height: 200px;
   border: 1px outset black;
   padding: 30px;
