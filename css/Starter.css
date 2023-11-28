@@ -158,6 +158,8 @@ article > section {
 	border: 1px outset black;
 	padding: 30px;
 	box-sizing: border-box;
+	column-width: 200px;
+	column-count: 3;
 }
 
 div {
