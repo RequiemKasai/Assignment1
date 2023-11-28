@@ -35,7 +35,7 @@ article {
   display: inline-block;
   width: 100%; 
   column-count: 3; 
-  column-gap: 2px; 
+  column-gap: 50px; 
 }
 
 article > section {
