@@ -203,3 +203,9 @@ footer {
    	position: sticky;
  	bottom: 1rem;
 }
+
+.CO {
+  	column-width: 200px;
+	column-count: 3;
+
+}
