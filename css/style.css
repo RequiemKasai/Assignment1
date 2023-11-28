@@ -82,6 +82,10 @@ footer {
   padding: 5px;
 }
 
+@media only screen and (max-width: 920px) {
+  img {
+    display: none;
+  }
 
 @media  only screen and (max-width: 600px) {
   h1 {
@@ -104,12 +108,3 @@ footer {
     padding: 10px 20px;
     margin: 2px;
   }
-
-  img {
-    display: none; 
-  }
-
-   footer {
-    display: none; 
-   }
-}
