@@ -21,13 +21,7 @@ html {
 }
 
 body {
-    	margin: 2;
-	font-size: 16px;
-   	display: inline-block;
-	column-width: 400px;
-	column-fill: balance;
-  	height: 250px;
-	column-count: 3;
+    margin: 2;
 }
 
 h1 {
@@ -38,7 +32,6 @@ h1 {
 	font-size: 66px;
 	padding: 80px;
 	margin: 0;
-	column-span: all;
 }
 
 h2 {
@@ -49,22 +42,20 @@ h2 {
     	line-height: 30px;
 	padding:40px;
 	margin: 0;
-	column-span: all;
 }
 
 
 article {
     font-size: 0;
 }
-
 article > section {
 	font-size: 16px;
    	display: inline-block;
-	column-width: 400px;
-	column-fill: balance;
-  	height: 250px;
-	column-count: 3;
-
+	width: 400px;
+	height: 200px;
+	border: 1px outset black;
+	padding: 30px;
+	box-sizing: border-box;
 }
 
 div {
@@ -109,10 +100,4 @@ footer {
 .Pages {
    	position: sticky;
  	bottom: 1rem;
-}
-
-.CO {
-  	column-width: 200px;
-	column-count: 3;
-
 }
