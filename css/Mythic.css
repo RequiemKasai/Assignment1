@@ -81,3 +81,23 @@ footer {
   position: sticky;
   bottom: 1rem;
 }
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 36px;
+    padding: 40px;
+  }
+
+  h2 {
+    font-size: 24px;
+    padding: 20px;
+  }
+
+  article {
+    column-count: 1;
+  }
+
+  article > section {
+    height: auto;
+  }
+}
