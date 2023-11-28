@@ -1,83 +1,86 @@
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: yellow;
-  margin: 0;
+html {
+	background-color: yellow;
+	text-align: center;
 }
 
+body {
+    margin: 2;
+}
+
+
 .flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 h1 {
-  background-color: purple;
-  text-align: center;
-  color: #000;
-  line-height: 50px;
-  font-size: 66px;
-  padding: 80px;
-  margin: 0;
+	background-color: purple;
+    	text-align: center;
+    	color: #000;
+    	line-height: 50px;
+	font-size: 66px;
+	padding: 80px;
+	margin: 0;
 }
 
 h2 {
-  background-color: crimson;
-  text-align: center;
-  color: #000;
-  font-size: 32px;
-  line-height: 30px;
-  padding: 40px;
-  margin: 0;
+	background-color: crimson;
+	text-align: center;
+    	color: #000;
+	font-size: 32px;
+    	line-height: 30px;
+	padding:40px;
+	margin: 0;
 }
 
 p1 {
-  text-align: center;
-  color: green;
-  font-size: 22px;
-  line-height: 20px;
-  padding: 10px;
-  margin: 0;
+	text-align: center;
+    	color: green;
+	font-size: 22px;
+    	line-height: 20px;
+	padding:10px;
+	margin: 0;
 }
 
 p2 {
-  text-align: center;
-  font-size: 18px;
-  line-height: 20px;
-  padding: 10px;
-  margin: 0;
+	text-align: center;
+	font-size: 18px;
+    	line-height: 20px;
+	padding:10px;
+	margin: 0;
 }
 
+
 ol {
-  text-align: center;
+    	text-align: center;
 }
 
 article {
-  flex: 1 200px;
-  padding: 10px;
-  margin: 10px;
-  background-color: aqua;
+	flex: 1 200px;
+	padding: 10px;
+    	margin: 10px;
+    	background-color: aqua;
 }
 
 button {
-  border: blue;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 24px;
-  margin: 4px 2px;
-  cursor: pointer;
-  background-color: #FFA500;
+	border: blue;
+ 	color: white;
+ 	padding: 15px 32px;
+ 	text-align: center;
+ 	display: inline-block;
+ 	font-size: 24px;
+ 	margin: 4px 2px;
+ 	cursor: pointer;
+	background-color: #FFA500;
 }
 
 u1 {
-  background-color: green;
-  padding: 5px;
+	backround-color: green;
+	padding: 5px;
 }
 
 footer {
-  background-color: white;
-  padding: 5px;
+	backround-color: white;
+	padding: 5px;
 }
+
