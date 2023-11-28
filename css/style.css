@@ -83,41 +83,6 @@ footer {
   padding: 5px;
 }
 
-/* Media query for smaller screens */
-@media only screen and (max-width: 600px) {
-  h1 {
-    font-size: 40px;
-    padding: 40px;
-  }
-
-  h2 {
-    font-size: 24px;
-    padding: 20px;
-  }
-
-  p1 {
-    font-size: 18px;
-    padding: 5px;
-  }
-
-  p2 {
-    font-size: 14px;
-    padding: 5px;
-  }
-
-  article {
-    flex: 1 100%;
-    padding: 5px;
-    margin: 5px;
-  }
-
-  button {
-    font-size: 18px;
-    padding: 10px 20px;
-    margin: 2px;
-  }
-}
-
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 36px;
