@@ -1,3 +1,4 @@
+/* Default styles for larger screens */
 body {
   display: flex;
   flex-direction: column;
@@ -82,6 +83,7 @@ footer {
   padding: 5px;
 }
 
+/* Media query for smaller screens */
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 40px;
@@ -95,25 +97,23 @@ footer {
 
   p1 {
     font-size: 18px;
-    padding: 10px;
+    padding: 5px;
   }
 
   p2 {
     font-size: 14px;
-    padding: 10px;
+    padding: 5px;
   }
 
   article {
     flex: 1 100%;
+    padding: 5px;
+    margin: 5px;
   }
 
   button {
     font-size: 18px;
     padding: 10px 20px;
-  }
-
-  footer {
-    flex-direction: column;
-    align-items: center;
+    margin: 2px;
   }
 }
